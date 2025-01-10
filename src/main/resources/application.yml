@@ -3,8 +3,8 @@ spring:
     name: pass-web
   datasource:                           # docker-compose? ???? DB ?? ?????.
     url: jdbc:mysql://127.0.0.1:3306/pass_local?zeroDateTimeBehavior=convertToNull&characterEncoding=UTF-8&serverTimezone=Asia/Seoul
-    username: pass_local_user
-    password: passlocal123
+    username: p
+    password: p
     driver-class-name: com.mysql.cj.jdbc.Driver
   thymeleaf:
     cache: false
